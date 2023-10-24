@@ -5,5 +5,5 @@ let std1Profile = {
     performance: "Excellent",
     track: "Frontend"
 }
-let objKeys = Object.keys(std1Profile);
+let objKeys = Object.values(std1Profile);
 console.log(objKeys);
