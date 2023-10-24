@@ -26,7 +26,7 @@ console.log(objKeys);
 
 
 let myMap = std1Profile.map((std1Profile) => {
-  console.log(std1Profile.name)
+  return std1Profile.name;
 })
 
 console.log(myMap)
